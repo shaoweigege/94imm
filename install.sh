@@ -78,7 +78,7 @@ read -p "Allow Url: " allow_url
 read -p "Site Name: " site_name
 read -p "Site Url: " site_url
 yum install wget git -y
-git clone https://github.com/Turnright-git/94imm.git
+git clone https://github.com/shaoweigege/94imm.git
 yum install gcc mariadb-devel -y
 cd "94imm"
 path=$(pwd)
